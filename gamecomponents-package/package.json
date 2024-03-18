@@ -1,0 +1,35 @@
+{
+  "name" : "com.xr4good.seriousgamecomponents",
+  "version" : "1.1.3",
+  "displayName" : "Serious Game Components",
+  "description" : "A collection of scripts and assets for components that can send xAPI statements to any LRS",
+  "unity": "2020.3",
+  "samples" : [
+    {
+      "displayName" : "Audio Player Component",
+      "description" : "A component that can store a list of audios locally or via URL, and then reproduce them",
+      "path" : "Samples~/AudioPlayer"
+    },
+    {
+      "displayName" : "Quiz Component",
+      "description" : "A component that can store a list of questions and answers, and then show them in unity text objects",
+      "path" : "Samples~/Quiz"
+    },
+    {
+      "displayName" : "Slide Component",
+      "description" : "A component that can store a list of images and then show them in unity canvas objects",
+      "path" : "Samples~/Slide"
+    },
+    {
+      "displayName" : "LMS Loader Component",
+      "description" : "A singleton component that can download all content from a specific Lesson from the XR4GOOD LMS",
+      "path" : "Samples~/LMSLoader"
+    },
+    {
+      "displayName" : "LRS Information Component",
+      "description" : "A singleton component that stores a LRS authentication data for the components to upload the generated xAPIs",
+      "path" : "Samples~/LRSInformation"
+    }
+  ]
+  
+}
